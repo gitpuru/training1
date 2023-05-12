@@ -295,7 +295,10 @@
 						"type": "Wait",
 						"dependsOn": [],
 						"userProperties": [
-							{}
+							{
+								"name": "Wait",
+								"value": "Wait for 10 sec and check the file arrival"
+							}
 						],
 						"typeProperties": {
 							"waitTimeInSeconds": 10
